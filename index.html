@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+
+      .font-primary {
+        font-family: "Comic Neue", cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root w-full">
+      <div class="nav-wrapper h-20 flex justify-between px-6 md:px-8 items-center">
+        <a class="logo text-lg flex gap-2 items-center font-semibold" href=""> <svg width="30" height="30" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M40 0C34.4771 30.0001 29.9998 34.4771 0 40C30.0001 45.5229 34.4771 49.9999 40 80C45.5229 49.9999 49.9999 45.5229 80 40C49.9999 34.4771 45.5227 30.0001 40 0Z" fill="#12141D"/>
+</svg>
+ Myna Ui</a>
+
+        <div class="nav-right flex gap-4 items-center">
+          <div class="nav-items hidden md:flex  gap-4 items-center">
+            <a class="text-sm font-medium cursor-pointer" href="">Features</a>
+          <a class="text-sm font-medium cursor-pointer" href="">Communities</a>
+          <a class="text-sm font-medium cursor-pointer" href="">Events</a>
+          <a class="text-sm font-medium cursor-pointer" href="">About Us</a>
+          <a class="text-sm font-medium cursor-pointer" href="">Login</a>
+          </div>
+
+          <button
+            class="text-sm flex items-center gap-2 text-white bg-black py-2 px-5 rounded-full"
+          >
+            Join for Free
+
+            <i class="ri-arrow-right-line font-semibold"></i>
+          </button>
+        </div>
+      </div>
+
+      <section>
+        <div class="hero-content h-screen flex flex-col justify-between relative">
+          <div class="flex flex-col px-6 md:px-0  relative z-10  pt-[100px] items-center space-y-5">
+            <h2 class="text-[8vw] md:text-[6vw] text-center font-semibold leading-none">
+              Find Your Tribe, <br />
+              Build Your Network.
+            </h2>
+
+            <p class=" text-[4vw] md:text-[1.6vw] font-light text-center leading-none">
+              Connect with like minded students for fun, <br />
+              friendship, and future opportunities.
+            </p>
+
+            <div class="btn-group flex-wrap flex gap-4">
+              <button
+                class="text-sm justify-center w-full md:w-fit flex items-center gap-2 text-white bg-black py-4 px-5 rounded-full"
+              >
+                Join for Free
+
+                <i class="ri-arrow-right-line font-semibold"></i>
+              </button>
+              <button
+                class="text-sm flex justify-center w-full md:w-fit items-center gap-2 text-black border border-[#ccc] py-3 px-5 rounded-full"
+              >
+                <img
+                  class="size-6  rounded-full shrink-0"
+                  src="https://images.unsplash.com/photo-1653771926532-0d76112c126d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                />
+
+                Explore Communities
+              </button>
+            </div>
+          </div>
+
+          <img class="w-full mt-0 md:mt-[-60px]" src="./img/group.png" alt="">
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
